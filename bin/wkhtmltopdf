@@ -15,7 +15,7 @@ when /x86_64.*linux/
 when /linux/
   raise "Invalid platform. Must be running on Linux x86_64"
 when /darwin/
-  raise "Invalid platform. Must be running on Linux x86_64"
+  'darwin_x86'
 else
   raise "Invalid platform. Must be running on Linux x86_64"
 end
