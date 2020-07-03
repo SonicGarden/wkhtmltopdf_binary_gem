@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.email = "nishimi@sonicgarden.jp"
   s.platform = Gem::Platform::RUBY
   s.files = Dir['bin/*']
-  s.has_rdoc = false
   s.executables << "wkhtmltopdf"
   s.require_path = '.'
 end
